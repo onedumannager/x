@@ -10,15 +10,15 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1082702383").split())
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
-    MAX_FILE_SIZE = 50000000
+    MAX_FILE_SIZE = 500000000
     TG_MAX_FILE_SIZE = 2097152000
-    FREE_USER_MAX_FILE_SIZE = 50000000
+    FREE_USER_MAX_FILE_SIZE = 5000
     # chunk size that should be used with requests
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     # default thumbnail to be used in the videos
