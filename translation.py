@@ -30,8 +30,8 @@ URL | filename | username | password"""
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
-Plan name: Free Forever Fucking User
-Expires on: 31/12/2020"""
+Plan name: ( 😎
+Expires on: 31/12/2021"""
     HELP_USER = """How to Use Me? Follow These steps!
     
 1. Send url (example.domain/File.mp4 | New Filename.mp4).
@@ -43,7 +43,7 @@ Expires on: 31/12/2020"""
    File   - Give File without Screenshots
 
 --------
-Send /me to know current plan details
+Send any link
 
 If bot didn't respond, contact @xgorn"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
